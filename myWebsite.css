@@ -14,7 +14,8 @@ a {
 }
 
 .navbar {
-    position: fixed;
+    position: flex;
+    background-color: mediumturquoise;
     left: 0;
     top: 0;
     width: 100%;
@@ -234,4 +235,14 @@ a {
     100%{
         transform: translate(0%) 
     }
+}
+
+.img .img-box .img-item {
+    width:16%;
+    height: 16%;
+    border-radius: 50%;
+    display: flex;
+    justify-self: center;
+    background-color: mediumturquoise;
+
 }

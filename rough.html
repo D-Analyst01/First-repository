@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown List</title>
+</head>
+<body>
+
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+
+    <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+    <optgroup label="Swedish Cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </optgroup>
+</select>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li>
+            <a href="#about">About</a>
+            <ul>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#mission">Mission</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#services">Services</a>
+            <ul>
+                <li><a href="#web-design">Web Design</a></li>
+                <li><a href="#seo">SEO</a></li>
+                <li><a href="#marketing">Marketing</a></li>
+            </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</body>
+</html>

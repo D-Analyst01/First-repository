@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Today</title>
+    <style>
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: black;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            border-radius: 4px; 
+        }
+
+        body {
+            background-color: palevioletred;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            background-image: url(cat.jpg);
+            background-size: contain;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        button {
+            background-color: aqua;
+
+        }
+
+        button:hover {
+            background-color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animal Shelter Aid</h1>
+    <form action="/submit form" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" Required!>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Email:</label>
+            <input type="text" id="email" name="email" Required!>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Password:</label>
+            <input type="text" id="password" name="password" Required!>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
